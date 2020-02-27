@@ -10,7 +10,234 @@
       {
         "title": "COE",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 885,
+                "y": 73
+              },
+              "angle": 0,
+              "id": "0c414c34-7748-44d2-b215-2622b4f2d9aa",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "ULFD"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 848,
+                "y": 327
+              },
+              "angle": 0,
+              "id": "5f0a345d-7b2c-4b90-a33d-4b780191bb70",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "store 1"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 884,
+                "y": 188
+              },
+              "angle": 0,
+              "id": "1e464dba-1649-48a1-97dc-4c7d97b34fe1",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "lstreamd"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 873,
+                "y": 469
+              },
+              "target": {
+                "x": 868,
+                "y": 5
+              },
+              "vertices": [
+                {
+                  "x": 752,
+                  "y": 259
+                }
+              ],
+              "id": "23a24c85-d4fd-4d97-aba6-2193c6a13780",
+              "z": 4,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 152,
+                "y": 50
+              },
+              "angle": 0,
+              "id": "5da23825-6cd5-4b9c-b582-34ffbbd17f98",
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "metrics\ncollector"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 150,
+                "y": 168
+              },
+              "angle": 0,
+              "id": "60d23941-f7ea-4c5f-b674-b092ff40f97d",
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Logstream\nClient"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 270,
+                "y": 13
+              },
+              "target": {
+                "x": 127,
+                "y": 362
+              },
+              "vertices": [
+                {
+                  "x": 412,
+                  "y": 202
+                }
+              ],
+              "id": "d6913fc9-192c-4911-9dc3-3cd2f230ed46",
+              "z": 7,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "60d23941-f7ea-4c5f-b674-b092ff40f97d"
+              },
+              "target": {
+                "x": 879,
+                "y": 127
+              },
+              "vertices": [
+                {
+                  "x": 445,
+                  "y": 195
+                },
+                {
+                  "x": 603,
+                  "y": 169
+                }
+              ],
+              "id": "f2842582-1530-4277-8687-6d3e73e9a1e7",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.48502417382732793,
+                    "offset": 2.639670116047554
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Logstream protocol\nTCP/IP",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 1475
+        }
       }
     ],
     "reviewer": "Meghashree"
