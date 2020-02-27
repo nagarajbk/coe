@@ -46,8 +46,8 @@
                 "height": 80
               },
               "position": {
-                "x": 848,
-                "y": 327
+                "x": 853,
+                "y": 351
               },
               "angle": 0,
               "id": "5f0a345d-7b2c-4b90-a33d-4b780191bb70",
@@ -179,6 +179,10 @@
                 {
                   "x": 412,
                   "y": 202
+                },
+                {
+                  "x": 404,
+                  "y": 216
                 }
               ],
               "id": "d6913fc9-192c-4911-9dc3-3cd2f230ed46",
@@ -231,12 +235,55 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "1e464dba-1649-48a1-97dc-4c7d97b34fe1"
+              },
+              "target": {
+                "id": "5f0a345d-7b2c-4b90-a33d-4b780191bb70"
+              },
+              "vertices": [
+                {
+                  "x": 928,
+                  "y": 311
+                },
+                {
+                  "x": 933,
+                  "y": 339
+                }
+              ],
+              "id": "64eac2f0-9d59-4cc6-a9a9-3b21d6a1c2f1",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "local storage",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
-          "height": 590,
-          "width": 1475
+          "height": 672.7999877929688,
+          "width": 1687.2000732421875
         }
       }
     ],
