@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "title": "COE",
+    "owner": "Nagaraj Harikar",
+    "description": "Pi6"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "COE",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Meghashree"
+  }
+}
